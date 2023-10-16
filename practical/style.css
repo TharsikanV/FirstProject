@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin:20vh 30vw;
+}
+
+.buttons a{
+    background-color: green;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    padding: 14px 25px;
+}
+.buttons a:hover{
+    background-color: red;
+    color: white;
+}
+header{
+    background-color: rgb(156, 156, 156);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer{
+    background-color: rgb(156, 156, 156);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* register */
+.form .title{
+    text-align: right;
+    padding-right:50px ;
+}
+.form-group{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form-group .control-label{
+    text-align: right;
+    margin-right: 60px;
+}
+
+.register-buttons a{
+    border: 1px solid black;
+}
+.register-buttons{
+    margin-left: 50%;
+    margin-top: 3%;
+
+}
+/* Login */
+.login-title{
+    text-align: center;
+}
+.login-form{
+    border: 1px solid rgb(120, 117, 117);
+    margin: 20vh 60vh;
+    padding: 20px;
+}
+/* ADD Friends */
+.Buttons a{
+    background-color: green;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    padding: 14px 50px;
+    margin-left: 75px;
+}
+.Buttons a:hover{
+    background-color: red;
+    color: white;
+}
